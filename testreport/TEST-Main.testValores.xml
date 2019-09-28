@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="0" hostname="vanniery" name="testValores" skipped="0" tests="1" time="0.0" timestamp="2019-09-28T17:50:51">
+<testsuite errors="0" failures="0" hostname="vanniery" name="Main.testValores" skipped="0" tests="5" time="0.068" timestamp="2019-09-28T18:28:30">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -45,13 +45,13 @@
     <property name="user.home" value="/home/vanniery" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="ant.file.Sample Project" value="/home/vanniery/eclipse-workspace/GerenciaConfig/build.xml" />
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib:/home/vanniery/eclipse/jee-2019-03/eclipse/configuration/org.eclipse.osgi/723/0/.cp" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="ant.file.type.Sample Project" value="file" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1569693048552 -Declipse.connect.port=43561 -Declipse.pdebuild.home=/home/vanniery/eclipse/jee-2019-03/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/. -Declipse.pdebuild.scripts=/home/vanniery/eclipse/jee-2019-03/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/scripts -Declipse.pdebuild.templates=/home/vanniery/eclipse/jee-2019-03/eclipse/../../../.p2/pool/plugins/org.eclipse.pde.build_3.10.300.v20190305-0856/templates -Dant.home=/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/vanniery/eclipse-workspace/GerenciaConfig/build.xml" />
-    <property name="java.class.path" value="/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-antlr.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-bcel.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-bsf.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-log4j.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-oro.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-regexp.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-resolver.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-apache-xalan2.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-commons-logging.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-commons-net.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jai.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-javamail.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jdepend.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jmf.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-jsch.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit4.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junitlauncher.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-launcher.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-netrexx.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-swing.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-testutil.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-xz.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar:/home/vanniery/eclipse/jee-2019-03/eclipse/configuration/org.eclipse.osgi/84/0/.cp/lib/antdebug.jar:/home/vanniery/eclipse/jee-2019-03/eclipse/configuration/org.eclipse.osgi/84/0/.cp/lib/remote.jar:/home/vanniery/eclipse/jee-2019-03/eclipse/configuration/org.eclipse.osgi/85/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-8-oracle/lib/tools.jar:/home/vanniery/.p2/pool/plugins/org.eclipse.swt.gtk.linux.x86_64_3.110.0.v20190305-0602.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner Main.testValores skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/vanniery/eclipse-workspace/GerenciaConfig/testreport/TEST-Main.testValores.xml crashfile=/home/vanniery/eclipse-workspace/GerenciaConfig/junitvmwatcher2323463704539723909.properties propsfile=/home/vanniery/eclipse-workspace/GerenciaConfig/junit1664724024968368559.properties" />
+    <property name="java.class.path" value="/home/vanniery/eclipse-workspace/GerenciaConfig/junit-4.12.jar:/home/vanniery/eclipse-workspace/GerenciaConfig/hamcrest-core-1.3.jar:/home/vanniery/eclipse-workspace/GerenciaConfig/bin:/home/vanniery/eclipse-workspace/GerenciaConfig/bin/tests:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-launcher.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit.jar:/home/vanniery/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -64,6 +64,7 @@
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
     <property name="user.dir" value="/home/vanniery/eclipse-workspace/GerenciaConfig" />
+    <property name="build.test.dir" value="/home/vanniery/eclipse-workspace/GerenciaConfig/bin/tests" />
     <property name="line.separator" value="&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="basedir" value="/home/vanniery/eclipse-workspace/GerenciaConfig" />
@@ -74,14 +75,11 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="main" />
   </properties>
-  <error message="testValores" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: testValores
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Class.java:348)
-	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:460)
-	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:142)
-</error>
+  <testcase classname="Main.testValores" name="testDel" time="0.001" />
+  <testcase classname="Main.testValores" name="testIns" time="0.001" />
+  <testcase classname="Main.testValores" name="testLower" time="0.001" />
+  <testcase classname="Main.testValores" name="testMean" time="0.0" />
+  <testcase classname="Main.testValores" name="testGreater" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
